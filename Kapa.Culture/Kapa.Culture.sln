@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kapa.Culture", "Kapa.Culture\Kapa.Culture.csproj", "{3E79F22F-B245-45C5-8991-892BDE15B1AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kapa.Culture.Tests", "..\tests\Kapa.Culture.Tests\Kapa.Culture.Tests.csproj", "{8E58B717-2AA3-44C0-91BE-1E67E67CF680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E79F22F-B245-45C5-8991-892BDE15B1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E79F22F-B245-45C5-8991-892BDE15B1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E79F22F-B245-45C5-8991-892BDE15B1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E79F22F-B245-45C5-8991-892BDE15B1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E58B717-2AA3-44C0-91BE-1E67E67CF680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E58B717-2AA3-44C0-91BE-1E67E67CF680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E58B717-2AA3-44C0-91BE-1E67E67CF680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E58B717-2AA3-44C0-91BE-1E67E67CF680}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
