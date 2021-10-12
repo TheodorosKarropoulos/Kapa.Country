@@ -45,7 +45,7 @@ namespace Kapa.Culture
         public const string BulgariaTwoLetterCode = "BG";
         public const string BurkinaFasoTwoLetterCode = "BF";
         public const string BurundiTwoLetterCode = "BI";
-        public const string CaboVerdeTwoLetterCode = "CV";
+        public const string CapeVerdeTwoLetterCode = "CV";
         public const string CambodiaTwoLetterCode = "KH";
         public const string CameroonTwoLetterCode = "CM";
         public const string CanadaTwoLetterCode = "CA";
@@ -126,6 +126,7 @@ namespace Kapa.Culture
         public const string KazakhstanTwoLetterCode = "KZ";
         public const string KenyaTwoLetterCode = "KE";
         public const string KiribatiTwoLetterCode = "KI";
+        public const string KosovoTwoLetterCode = "XK";
         public const string KuwaitTwoLetterCode = "KW";
         public const string KyrgyzstanTwoLetterCode = "KG";
         public const string LaosTwoLetterCode = "LA";
@@ -137,7 +138,7 @@ namespace Kapa.Culture
         public const string LiechtensteinTwoLetterCode = "LI";
         public const string LithuaniaTwoLetterCode = "LT";
         public const string LuxembourgTwoLetterCode = "LU";
-        public const string MacaoTwoLetterCode = "MO";
+        public const string MacauTwoLetterCode = "MO";
         public const string MadagascarTwoLetterCode = "MG";
         public const string MalawiTwoLetterCode = "MW";
         public const string MalaysiaTwoLetterCode = "MY";
@@ -249,7 +250,7 @@ namespace Kapa.Culture
         public const string UzbekistanTwoLetterCode = "UZ";
         public const string VanuatuTwoLetterCode = "VU";
         public const string VenezuelaTwoLetterCode = "VE";
-        public const string VietNamTwoLetterCode = "VN";
+        public const string VietnamTwoLetterCode = "VN";
         public const string VirginIslandsBritishTwoLetterCode = "VG";
         public const string VirginIslandsUSTwoLetterCode = "VI";
         public const string WallisAndFutunaTwoLetterCode = "WF";
@@ -299,7 +300,7 @@ namespace Kapa.Culture
         public const string BurkinaFasoThreeLetterCode = "BFA";
         public const string BurundiThreeLetterCode = "BDI";
         public const string CaribbeanNetherlandsThreeLetterCode = "BES";
-        public const string CaboVerdeThreeLetterCode = "CPV";
+        public const string CapeVerdeThreeLetterCode = "CPV";
         public const string CambodiaThreeLetterCode = "KHM";
         public const string CameroonThreeLetterCode = "CMR";
         public const string CanadaThreeLetterCode = "CAN";
@@ -380,6 +381,7 @@ namespace Kapa.Culture
         public const string KazakhstanThreeLetterCode = "KAZ";
         public const string KenyaThreeLetterCode = "KEN";
         public const string KiribatiThreeLetterCode = "KIR";
+        public const string KosovoThreeLetterCode = "XKX";
         public const string KuwaitThreeLetterCode = "KWT";
         public const string KyrgyzstanThreeLetterCode = "KGZ";
         public const string LaosThreeLetterCode = "LAO";
@@ -391,7 +393,7 @@ namespace Kapa.Culture
         public const string LiechtensteinThreeLetterCode = "LIE";
         public const string LithuaniaThreeLetterCode = "LTU";
         public const string LuxembourgThreeLetterCode = "LUX";
-        public const string MacaoThreeLetterCode = "MAC";
+        public const string MacauThreeLetterCode = "MAC";
         public const string MadagascarThreeLetterCode = "MDG";
         public const string MalawiThreeLetterCode = "MWI";
         public const string MalaysiaThreeLetterCode = "MYS";
@@ -503,7 +505,7 @@ namespace Kapa.Culture
         public const string UzbekistanThreeLetterCode = "UZB";
         public const string VanuatuThreeLetterCode = "VUT";
         public const string VenezuelaThreeLetterCode = "VEN";
-        public const string VietNamThreeLetterCode = "VNM";
+        public const string VietnamThreeLetterCode = "VNM";
         public const string VirginIslandsBritishThreeLetterCode = "VGB";
         public const string VirginIslandsUSThreeLetterCode = "VIR";
         public const string WallisAndFutunaThreeLetterCode = "WLF";
@@ -553,7 +555,7 @@ namespace Kapa.Culture
         public const string BulgariaNumericCode = "100";
         public const string BurkinaFasoNumericCode = "854";
         public const string BurundiNumericCode = "108";
-        public const string CaboVerdeNumericCode = "132";
+        public const string CapeVerdeNumericCode = "132";
         public const string CambodiaNumericCode = "116";
         public const string CameroonNumericCode = "120";
         public const string CanadaNumericCode = "124";
@@ -634,6 +636,7 @@ namespace Kapa.Culture
         public const string KazakhstanNumericCode = "398";
         public const string KenyaNumericCode = "404";
         public const string KiribatiNumericCode = "296";
+        public const string KosovoNumericCode = "926";
         public const string KuwaitNumericCode = "414";
         public const string KyrgyzstanNumericCode = "417";
         public const string LaosNumericCode = "418";
@@ -645,7 +648,7 @@ namespace Kapa.Culture
         public const string LiechtensteinNumericCode = "438";
         public const string LithuaniaNumericCode = "440";
         public const string LuxembourgNumericCode = "442";
-        public const string MacaoNumericCode = "446";
+        public const string MacauNumericCode = "446";
         public const string MadagascarNumericCode = "450";
         public const string MalawiNumericCode = "454";
         public const string MalaysiaNumericCode = "458";
@@ -757,7 +760,7 @@ namespace Kapa.Culture
         public const string UzbekistanNumericCode = "860";
         public const string VanuatuNumericCode = "548";
         public const string VenezuelaNumericCode = "862";
-        public const string VietNamNumericCode = "704";
+        public const string VietnamNumericCode = "704";
         public const string VirginIslandsBritishNumericCode = "092";
         public const string VirginIslandsUSNumericCode = "850";
         public const string WallisAndFutunaNumericCode = "876";
@@ -810,7 +813,7 @@ namespace Kapa.Culture
                 {BulgariaTwoLetterCode, BulgariaThreeLetterCode},
                 {BurkinaFasoTwoLetterCode, BurkinaFasoThreeLetterCode},
                 {BurundiTwoLetterCode, BurundiThreeLetterCode},
-                {CaboVerdeTwoLetterCode, CaboVerdeThreeLetterCode},
+                {CapeVerdeTwoLetterCode, CapeVerdeThreeLetterCode},
                 {CambodiaTwoLetterCode, CambodiaThreeLetterCode},
                 {CameroonTwoLetterCode, CameroonThreeLetterCode},
                 {CanadaTwoLetterCode, CanadaThreeLetterCode},
@@ -891,6 +894,7 @@ namespace Kapa.Culture
                 {KazakhstanTwoLetterCode, KazakhstanThreeLetterCode},
                 {KenyaTwoLetterCode, KenyaThreeLetterCode},
                 {KiribatiTwoLetterCode, KiribatiThreeLetterCode},
+                {KosovoTwoLetterCode, KosovoThreeLetterCode},
                 {KuwaitTwoLetterCode, KuwaitThreeLetterCode},
                 {KyrgyzstanTwoLetterCode, KyrgyzstanThreeLetterCode},
                 {LaosTwoLetterCode, LaosThreeLetterCode},
@@ -902,7 +906,7 @@ namespace Kapa.Culture
                 {LiechtensteinTwoLetterCode, LiechtensteinThreeLetterCode},
                 {LithuaniaTwoLetterCode, LithuaniaThreeLetterCode},
                 {LuxembourgTwoLetterCode, LuxembourgThreeLetterCode},
-                {MacaoTwoLetterCode, MacaoThreeLetterCode},
+                {MacauTwoLetterCode, MacauThreeLetterCode},
                 {MadagascarTwoLetterCode, MadagascarThreeLetterCode},
                 {MalawiTwoLetterCode, MalawiThreeLetterCode},
                 {MalaysiaTwoLetterCode, MalaysiaThreeLetterCode},
@@ -1020,7 +1024,7 @@ namespace Kapa.Culture
                 {UzbekistanTwoLetterCode, UzbekistanThreeLetterCode},
                 {VanuatuTwoLetterCode, VanuatuThreeLetterCode},
                 {VenezuelaTwoLetterCode, VenezuelaThreeLetterCode},
-                {VietNamTwoLetterCode, VietNamThreeLetterCode},
+                {VietnamTwoLetterCode, VietnamThreeLetterCode},
                 {VirginIslandsBritishTwoLetterCode, VirginIslandsBritishThreeLetterCode},
                 {VirginIslandsUSTwoLetterCode, VirginIslandsUSThreeLetterCode},
                 {WallisAndFutunaTwoLetterCode, WallisAndFutunaThreeLetterCode},
@@ -1070,7 +1074,7 @@ namespace Kapa.Culture
                 {BulgariaTwoLetterCode, BulgariaNumericCode},
                 {BurkinaFasoTwoLetterCode, BurkinaFasoNumericCode},
                 {BurundiTwoLetterCode, BurundiNumericCode},
-                {CaboVerdeTwoLetterCode, CaboVerdeNumericCode},
+                {CapeVerdeTwoLetterCode, CapeVerdeNumericCode},
                 {CambodiaTwoLetterCode, CambodiaNumericCode},
                 {CameroonTwoLetterCode, CameroonNumericCode},
                 {CanadaTwoLetterCode, CanadaNumericCode},
@@ -1151,6 +1155,7 @@ namespace Kapa.Culture
                 {KazakhstanTwoLetterCode, KazakhstanNumericCode},
                 {KenyaTwoLetterCode, KenyaNumericCode},
                 {KiribatiTwoLetterCode, KiribatiNumericCode},
+                {KosovoTwoLetterCode, KosovoNumericCode},
                 {KuwaitTwoLetterCode, KuwaitNumericCode},
                 {KyrgyzstanTwoLetterCode, KyrgyzstanNumericCode},
                 {LaosTwoLetterCode, LaosNumericCode},
@@ -1162,7 +1167,7 @@ namespace Kapa.Culture
                 {LiechtensteinTwoLetterCode, LiechtensteinNumericCode},
                 {LithuaniaTwoLetterCode, LithuaniaNumericCode},
                 {LuxembourgTwoLetterCode, LuxembourgNumericCode},
-                {MacaoTwoLetterCode, MacaoNumericCode},
+                {MacauTwoLetterCode, MacauNumericCode},
                 {MadagascarTwoLetterCode, MadagascarNumericCode},
                 {MalawiTwoLetterCode, MalawiNumericCode},
                 {MalaysiaTwoLetterCode, MalaysiaNumericCode},
@@ -1274,7 +1279,7 @@ namespace Kapa.Culture
                 {UzbekistanTwoLetterCode, UzbekistanNumericCode},
                 {VanuatuTwoLetterCode, VanuatuNumericCode},
                 {VenezuelaTwoLetterCode, VenezuelaNumericCode},
-                {VietNamTwoLetterCode, VietNamNumericCode},
+                {VietnamTwoLetterCode, VietnamNumericCode},
                 {VirginIslandsBritishTwoLetterCode, VirginIslandsBritishNumericCode},
                 {VirginIslandsUSTwoLetterCode, VirginIslandsUSNumericCode},
                 {WallisAndFutunaTwoLetterCode, WallisAndFutunaNumericCode},

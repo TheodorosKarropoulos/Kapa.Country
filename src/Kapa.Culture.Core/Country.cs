@@ -14,6 +14,7 @@ namespace Kapa.Culture
         public string CurrencyIsoCode { get; }
         public string CurrencySymbol { get; }
         public IEnumerable<string> Languages { get; }
+        public IEnumerable<string> DialingCodes { get; }
 
         public Country()
         {
@@ -33,6 +34,7 @@ namespace Kapa.Culture
             Languages = CultureInfo.GetCultures(CultureTypes.AllCultures)
                 .Where(x => x.Name.EndsWith($"-{twoLetterCode}"))
                 .Select(x => x.Name);
+            DialingCodes = Phones.GetDialingCodesFromTwoLetterCode(twoLetterCode);
         }
 
         public static Country FromCode(string code)

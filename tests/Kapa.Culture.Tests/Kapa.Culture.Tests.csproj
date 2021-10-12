@@ -21,6 +21,8 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\Kapa.Culture\Kapa.Culture\Kapa.Culture.csproj" />
+      <ProjectReference Include="..\..\src\Kapa.Culture.Core\Kapa.Culture.Core.csproj" />
+      <ProjectReference Include="..\..\src\Kapa.Culture\Kapa.Culture.csproj" />
     </ItemGroup>
 
 </Project>
