@@ -16,7 +16,7 @@ namespace Kapa.Culture
         public IEnumerable<string> Languages { get; }
         public IEnumerable<string> DialingCodes { get; }
 
-        public Country()
+        private Country()
         {
 
         }

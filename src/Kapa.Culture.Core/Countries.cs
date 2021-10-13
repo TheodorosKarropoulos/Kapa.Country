@@ -16,7 +16,6 @@ namespace Kapa.Culture
         public const string AndorraTwoLetterCode = "AD";
         public const string AngolaTwoLetterCode = "AO";
         public const string AnguillaTwoLetterCode = "AI";
-        public const string AntarcticaTwoLetterCode = "AQ";
         public const string AntiguaAndBarbudaTwoLetterCode = "AG";
         public const string ArgentinaTwoLetterCode = "AR";
         public const string ArmeniaTwoLetterCode = "AM";
@@ -38,7 +37,6 @@ namespace Kapa.Culture
         public const string CaribbeanNetherlandsTwoLetterCode = "BQ";
         public const string BosniaAndHerzegovinaTwoLetterCode = "BA";
         public const string BotswanaTwoLetterCode = "BW";
-        public const string BouvetIslandTwoLetterCode = "BV";
         public const string BrazilTwoLetterCode = "BR";
         public const string BritishIndianOceanTerritoryTwoLetterCode = "IO";
         public const string BruneiDarussalamTwoLetterCode = "BN";
@@ -86,7 +84,6 @@ namespace Kapa.Culture
         public const string FranceTwoLetterCode = "FR";
         public const string FrenchGuianaTwoLetterCode = "GF";
         public const string FrenchPolynesiaTwoLetterCode = "PF";
-        public const string FrenchSouthernTerritoriesTwoLetterCode = "TF";
         public const string GabonTwoLetterCode = "GA";
         public const string GambiaTwoLetterCode = "GM";
         public const string GeorgiaTwoLetterCode = "GE";
@@ -104,7 +101,6 @@ namespace Kapa.Culture
         public const string GuineaBissauTwoLetterCode = "GW";
         public const string GuyanaTwoLetterCode = "GY";
         public const string HaitiTwoLetterCode = "HT";
-        public const string HeardIslandAndMcDonaldIslandsTwoLetterCode = "HM";
         public const string HolySeeTwoLetterCode = "VA";
         public const string HondurasTwoLetterCode = "HN";
         public const string HongKongTwoLetterCode = "HK";
@@ -215,7 +211,6 @@ namespace Kapa.Culture
         public const string SolomonIslandsTwoLetterCode = "SB";
         public const string SomaliaTwoLetterCode = "SO";
         public const string SouthAfricaTwoLetterCode = "ZA";
-        public const string SouthGeorgiaAndTheSouthSandwichIslandsTwoLetterCode = "GS";
         public const string SouthKoreaTwoLetterCode = "KR";
         public const string SouthSudanTwoLetterCode = "SS";
         public const string SpainTwoLetterCode = "ES";
@@ -254,7 +249,6 @@ namespace Kapa.Culture
         public const string VirginIslandsBritishTwoLetterCode = "VG";
         public const string VirginIslandsUSTwoLetterCode = "VI";
         public const string WallisAndFutunaTwoLetterCode = "WF";
-        public const string WesternSaharaTwoLetterCode = "EH";
         public const string YemenTwoLetterCode = "YE";
         public const string ZambiaTwoLetterCode = "ZM";
         public const string ZimbabweTwoLetterCode = "ZW";
@@ -271,7 +265,6 @@ namespace Kapa.Culture
         public const string AndorraThreeLetterCode = "AND";
         public const string AngolaThreeLetterCode = "AGO";
         public const string AnguillaThreeLetterCode = "AIA";
-        public const string AntarcticaThreeLetterCode = "ATA";
         public const string AntiguaAndBarbudaThreeLetterCode = "ATG";
         public const string ArgentinaThreeLetterCode = "ARG";
         public const string ArmeniaThreeLetterCode = "ARM";
@@ -292,7 +285,6 @@ namespace Kapa.Culture
         public const string BoliviaThreeLetterCode = "BOL";
         public const string BosniaAndHerzegovinaThreeLetterCode = "BIH";
         public const string BotswanaThreeLetterCode = "BWA";
-        public const string BouvetIslandThreeLetterCode = "BVT";
         public const string BrazilThreeLetterCode = "BRA";
         public const string BritishIndianOceanTerritoryThreeLetterCode = "IOT";
         public const string BruneiDarussalamThreeLetterCode = "BRN";
@@ -341,7 +333,6 @@ namespace Kapa.Culture
         public const string FranceThreeLetterCode = "FRA";
         public const string FrenchGuianaThreeLetterCode = "GUF";
         public const string FrenchPolynesiaThreeLetterCode = "PYF";
-        public const string FrenchSouthernTerritoriesThreeLetterCode = "ATF";
         public const string GabonThreeLetterCode = "GAB";
         public const string GambiaThreeLetterCode = "GMB";
         public const string GeorgiaThreeLetterCode = "GEO";
@@ -359,7 +350,6 @@ namespace Kapa.Culture
         public const string GuineaBissauThreeLetterCode = "GNB";
         public const string GuyanaThreeLetterCode = "GUY";
         public const string HaitiThreeLetterCode = "HTI";
-        public const string HeardIslandAndMcDonaldIslandsThreeLetterCode = "HMD";
         public const string HolySeeThreeLetterCode = "VAT";
         public const string HondurasThreeLetterCode = "HND";
         public const string HongKongThreeLetterCode = "HKG";
@@ -470,7 +460,6 @@ namespace Kapa.Culture
         public const string SolomonIslandsThreeLetterCode = "SLB";
         public const string SomaliaThreeLetterCode = "SOM";
         public const string SouthAfricaThreeLetterCode = "ZAF";
-        public const string SouthGeorgiaAndTheSouthSandwichIslandsThreeLetterCode = "SGS";
         public const string SouthKoreaThreeLetterCode = "KOR";
         public const string SouthSudanThreeLetterCode = "SSD";
         public const string SpainThreeLetterCode = "ESP";
@@ -509,7 +498,6 @@ namespace Kapa.Culture
         public const string VirginIslandsBritishThreeLetterCode = "VGB";
         public const string VirginIslandsUSThreeLetterCode = "VIR";
         public const string WallisAndFutunaThreeLetterCode = "WLF";
-        public const string WesternSaharaThreeLetterCode = "ESH";
         public const string YemenThreeLetterCode = "YEM";
         public const string ZambiaThreeLetterCode = "ZMB";
         public const string ZimbabweThreeLetterCode = "ZWE";
@@ -526,7 +514,6 @@ namespace Kapa.Culture
         public const string AndorraNumericCode = "020";
         public const string AngolaNumericCode = "024";
         public const string AnguillaNumericCode = "660";
-        public const string AntarcticaNumericCode = "010";
         public const string AntiguaAndBarbudaNumericCode = "028";
         public const string ArgentinaNumericCode = "032";
         public const string ArmeniaNumericCode = "051";
@@ -548,7 +535,6 @@ namespace Kapa.Culture
         public const string CaribbeanNetherlandsNumericCode = "535";
         public const string BosniaAndHerzegovinaNumericCode = "070";
         public const string BotswanaNumericCode = "072";
-        public const string BouvetIslandNumericCode = "074";
         public const string BrazilNumericCode = "076";
         public const string BritishIndianOceanTerritoryNumericCode = "086";
         public const string BruneiDarussalamNumericCode = "096";
@@ -596,7 +582,6 @@ namespace Kapa.Culture
         public const string FranceNumericCode = "250";
         public const string FrenchGuianaNumericCode = "254";
         public const string FrenchPolynesiaNumericCode = "258";
-        public const string FrenchSouthernTerritoriesNumericCode = "260";
         public const string GabonNumericCode = "266";
         public const string GambiaNumericCode = "270";
         public const string GeorgiaNumericCode = "268";
@@ -614,7 +599,6 @@ namespace Kapa.Culture
         public const string GuineaBissauNumericCode = "624";
         public const string GuyanaNumericCode = "328";
         public const string HaitiNumericCode = "332";
-        public const string HeardIslandAndMcDonaldIslandsNumericCode = "334";
         public const string HolySeeNumericCode = "336";
         public const string HondurasNumericCode = "340";
         public const string HongKongNumericCode = "344";
@@ -725,7 +709,6 @@ namespace Kapa.Culture
         public const string SolomonIslandsNumericCode = "090";
         public const string SomaliaNumericCode = "706";
         public const string SouthAfricaNumericCode = "710";
-        public const string SouthGeorgiaAndTheSouthSandwichIslandsNumericCode = "239";
         public const string SouthKoreaNumericCode = "410";
         public const string SouthSudanNumericCode = "728";
         public const string SpainNumericCode = "724";
@@ -764,7 +747,6 @@ namespace Kapa.Culture
         public const string VirginIslandsBritishNumericCode = "092";
         public const string VirginIslandsUSNumericCode = "850";
         public const string WallisAndFutunaNumericCode = "876";
-        public const string WesternSaharaNumericCode = "732";
         public const string YemenNumericCode = "887";
         public const string ZambiaNumericCode = "894";
         public const string ZimbabweNumericCode = "716";
@@ -784,7 +766,6 @@ namespace Kapa.Culture
                 {AndorraTwoLetterCode, AndorraThreeLetterCode},
                 {AngolaTwoLetterCode, AngolaThreeLetterCode},
                 {AnguillaTwoLetterCode, AnguillaThreeLetterCode},
-                {AntarcticaTwoLetterCode, AntarcticaThreeLetterCode},
                 {AntiguaAndBarbudaTwoLetterCode, AntiguaAndBarbudaThreeLetterCode},
                 {ArgentinaTwoLetterCode, ArgentinaThreeLetterCode},
                 {ArmeniaTwoLetterCode, ArmeniaThreeLetterCode},
@@ -806,7 +787,6 @@ namespace Kapa.Culture
                 {CaribbeanNetherlandsTwoLetterCode, CaribbeanNetherlandsThreeLetterCode},
                 {BosniaAndHerzegovinaTwoLetterCode, BosniaAndHerzegovinaThreeLetterCode},
                 {BotswanaTwoLetterCode, BotswanaThreeLetterCode},
-                {BouvetIslandTwoLetterCode, BouvetIslandThreeLetterCode},
                 {BrazilTwoLetterCode, BrazilThreeLetterCode},
                 {BritishIndianOceanTerritoryTwoLetterCode, BritishIndianOceanTerritoryThreeLetterCode},
                 {BruneiDarussalamTwoLetterCode, BruneiDarussalamThreeLetterCode},
@@ -854,7 +834,6 @@ namespace Kapa.Culture
                 {FranceTwoLetterCode, FranceThreeLetterCode},
                 {FrenchGuianaTwoLetterCode, FrenchGuianaThreeLetterCode},
                 {FrenchPolynesiaTwoLetterCode, FrenchPolynesiaThreeLetterCode},
-                {FrenchSouthernTerritoriesTwoLetterCode, FrenchSouthernTerritoriesThreeLetterCode},
                 {GabonTwoLetterCode, GabonThreeLetterCode},
                 {GambiaTwoLetterCode, GambiaThreeLetterCode},
                 {GeorgiaTwoLetterCode, GeorgiaThreeLetterCode},
@@ -872,7 +851,6 @@ namespace Kapa.Culture
                 {GuineaBissauTwoLetterCode, GuineaBissauThreeLetterCode},
                 {GuyanaTwoLetterCode, GuyanaThreeLetterCode},
                 {HaitiTwoLetterCode, HaitiThreeLetterCode},
-                {HeardIslandAndMcDonaldIslandsTwoLetterCode, HeardIslandAndMcDonaldIslandsThreeLetterCode},
                 {HolySeeTwoLetterCode, HolySeeThreeLetterCode},
                 {HondurasTwoLetterCode, HondurasThreeLetterCode},
                 {HongKongTwoLetterCode, HongKongThreeLetterCode},
@@ -986,10 +964,6 @@ namespace Kapa.Culture
                 {SolomonIslandsTwoLetterCode, SolomonIslandsThreeLetterCode},
                 {SomaliaTwoLetterCode, SomaliaThreeLetterCode},
                 {SouthAfricaTwoLetterCode, SouthAfricaThreeLetterCode},
-                {
-                    SouthGeorgiaAndTheSouthSandwichIslandsTwoLetterCode,
-                    SouthGeorgiaAndTheSouthSandwichIslandsThreeLetterCode
-                },
                 {SouthKoreaTwoLetterCode, SouthKoreaThreeLetterCode},
                 {SouthSudanTwoLetterCode, SouthSudanThreeLetterCode},
                 {SpainTwoLetterCode, SpainThreeLetterCode},
@@ -1028,7 +1002,6 @@ namespace Kapa.Culture
                 {VirginIslandsBritishTwoLetterCode, VirginIslandsBritishThreeLetterCode},
                 {VirginIslandsUSTwoLetterCode, VirginIslandsUSThreeLetterCode},
                 {WallisAndFutunaTwoLetterCode, WallisAndFutunaThreeLetterCode},
-                {WesternSaharaTwoLetterCode, WesternSaharaThreeLetterCode},
                 {YemenTwoLetterCode, YemenThreeLetterCode},
                 {ZambiaTwoLetterCode, ZambiaThreeLetterCode},
                 {ZimbabweTwoLetterCode, ZimbabweThreeLetterCode}
@@ -1045,7 +1018,6 @@ namespace Kapa.Culture
                 {AndorraTwoLetterCode, AndorraNumericCode},
                 {AngolaTwoLetterCode, AngolaNumericCode},
                 {AnguillaTwoLetterCode, AnguillaNumericCode},
-                {AntarcticaTwoLetterCode, AntarcticaNumericCode},
                 {AntiguaAndBarbudaTwoLetterCode, AntiguaAndBarbudaNumericCode},
                 {ArgentinaTwoLetterCode, ArgentinaNumericCode},
                 {ArmeniaTwoLetterCode, ArmeniaNumericCode},
@@ -1067,7 +1039,6 @@ namespace Kapa.Culture
                 {CaribbeanNetherlandsTwoLetterCode, CaribbeanNetherlandsNumericCode},
                 {BosniaAndHerzegovinaTwoLetterCode, BosniaAndHerzegovinaNumericCode},
                 {BotswanaTwoLetterCode, BotswanaNumericCode},
-                {BouvetIslandTwoLetterCode, BouvetIslandNumericCode},
                 {BrazilTwoLetterCode, BrazilNumericCode},
                 {BritishIndianOceanTerritoryTwoLetterCode, BritishIndianOceanTerritoryNumericCode},
                 {BruneiDarussalamTwoLetterCode, BruneiDarussalamNumericCode},
@@ -1115,7 +1086,6 @@ namespace Kapa.Culture
                 {FranceTwoLetterCode, FranceNumericCode},
                 {FrenchGuianaTwoLetterCode, FrenchGuianaNumericCode},
                 {FrenchPolynesiaTwoLetterCode, FrenchPolynesiaNumericCode},
-                {FrenchSouthernTerritoriesTwoLetterCode, FrenchSouthernTerritoriesNumericCode},
                 {GabonTwoLetterCode, GabonNumericCode},
                 {GambiaTwoLetterCode, GambiaNumericCode},
                 {GeorgiaTwoLetterCode, GeorgiaNumericCode},
@@ -1133,7 +1103,6 @@ namespace Kapa.Culture
                 {GuineaBissauTwoLetterCode, GuineaBissauNumericCode},
                 {GuyanaTwoLetterCode, GuyanaNumericCode},
                 {HaitiTwoLetterCode, HaitiNumericCode},
-                {HeardIslandAndMcDonaldIslandsTwoLetterCode, HeardIslandAndMcDonaldIslandsNumericCode},
                 {HolySeeTwoLetterCode, HolySeeNumericCode},
                 {HondurasTwoLetterCode, HondurasNumericCode},
                 {HongKongTwoLetterCode, HongKongNumericCode},
@@ -1244,7 +1213,6 @@ namespace Kapa.Culture
                 {SolomonIslandsTwoLetterCode, SolomonIslandsNumericCode},
                 {SomaliaTwoLetterCode, SomaliaNumericCode},
                 {SouthAfricaTwoLetterCode, SouthAfricaNumericCode},
-                {SouthGeorgiaAndTheSouthSandwichIslandsTwoLetterCode, SouthGeorgiaAndTheSouthSandwichIslandsNumericCode},
                 {SouthKoreaTwoLetterCode, SouthKoreaNumericCode},
                 {SouthSudanTwoLetterCode, SouthSudanNumericCode},
                 {SpainTwoLetterCode, SpainNumericCode},
@@ -1283,7 +1251,6 @@ namespace Kapa.Culture
                 {VirginIslandsBritishTwoLetterCode, VirginIslandsBritishNumericCode},
                 {VirginIslandsUSTwoLetterCode, VirginIslandsUSNumericCode},
                 {WallisAndFutunaTwoLetterCode, WallisAndFutunaNumericCode},
-                {WesternSaharaTwoLetterCode, WesternSaharaNumericCode},
                 {YemenTwoLetterCode, YemenNumericCode},
                 {ZambiaTwoLetterCode, ZambiaNumericCode},
                 {ZimbabweTwoLetterCode, ZimbabweNumericCode}
@@ -1326,6 +1293,15 @@ namespace Kapa.Culture
                 ? default
                 : CountriesThreeLetter?.FirstOrDefault(x => x.Value == code.Trim()).Key;
         }
+
+        public static IEnumerable<string> GetAllTwoLetterCodes()
+            => CountriesThreeLetter.Keys;
+
+        public static IEnumerable<string> GetAllThreeLetterCodes()
+            => CountriesThreeLetter.Values;
+
+        public static IEnumerable<string> GetAllNumericCodes()
+            => CountriesNumeric.Values;
 
         #endregion
     }

@@ -1,4 +1,4 @@
-using System;
+using System.Linq;
 using Xunit;
 
 namespace Kapa.Culture.Tests
@@ -6,30 +6,32 @@ namespace Kapa.Culture.Tests
     public class CountryTests
     {
         [Theory]
-        [InlineData("GR")]
-        [InlineData("gr")]
-        [InlineData("   Gr   ")]
-        [InlineData("   gR   ")]
-        public void ShouldCreateCountryFromTwoLetterCode(string code)
+        [InlineData("GR", "GRC")]
+        [InlineData("gr", "GRC")]
+        [InlineData("   Gr   ", "GRC")]
+        [InlineData("   gR   ", "GRC")]
+        [InlineData("VE", "VEN")]
+        public void ShouldTrimAndCreateCountryFromTwoLetterCode(string code, string threeLetterCode)
         {
             var country = Country.FromCode(code);
 
             Assert.NotNull(country);
-            Assert.True(country.ThreeLetterCode == "GRC");
+            Assert.True(country.ThreeLetterCode == threeLetterCode);
             Assert.True(country.Name != default);
         }
 
         [Theory]
-        [InlineData("GRC")]
-        [InlineData("grC")]
-        [InlineData("   Grc   ")]
-        [InlineData("   gRC   ")]
-        public void ShouldCreateCountryFromThreeLetterCode(string code)
+        [InlineData("GRC", "GR")]
+        [InlineData("grC", "GR")]
+        [InlineData("   Grc   ", "GR")]
+        [InlineData("   gRC   ", "GR")]
+        [InlineData("VEN", "VE")]
+        public void ShouldTrimCreateCountryFromThreeLetterCode(string code, string twoLetterCode)
         {
             var country = Country.FromCode(code);
 
             Assert.NotNull(country);
-            Assert.True(country.TwoLetterCode == "GR");
+            Assert.True(country.TwoLetterCode == twoLetterCode);
             Assert.True(country.Name != default);
         }
 
@@ -38,7 +40,7 @@ namespace Kapa.Culture.Tests
         [InlineData("     300")]
         [InlineData("300    ")]
         [InlineData("   300    ")]
-        public void ShouldCreateCountryFromNumericCode(string code)
+        public void ShouldTrimCreateCountryFromNumericCode(string code)
         {
             var country = Country.FromCode(code);
 
@@ -73,10 +75,10 @@ namespace Kapa.Culture.Tests
         {
             var threeLetterCode = Countries.GetThreeLetterCodeFromTwoLetterCode(twoLetterCode);
             var country = Country.FromCode(twoLetterCode);
-            
+
             Assert.True(threeLetterCode == country.ThreeLetterCode);
         }
-        
+
         [Theory]
         [InlineData("GRC")]
         [InlineData("BEL")]
@@ -86,23 +88,24 @@ namespace Kapa.Culture.Tests
         {
             var twoLetterCode = Countries.GetThreeLetterCodeFromTwoLetterCode(threeLetterCode);
             var country = Country.FromCode(twoLetterCode);
-            
+
             Assert.True(twoLetterCode == country.TwoLetterCode);
         }
-        
+
         [Theory]
         [InlineData("GR")]
         [InlineData("BE")]
         [InlineData("GB")]
         [InlineData("US")]
+        [InlineData("VE")]
         public void ShouldGetNumericCodeFromTwoLetterCode(string twoLetterCode)
         {
             var numericCode = Countries.GetNumericCodeFromTwoLetterCode(twoLetterCode);
             var country = Country.FromCode(twoLetterCode);
-            
+
             Assert.True(numericCode == country.NumericCode);
         }
-        
+
         [Theory]
         [InlineData("300")]
         [InlineData("056")]
@@ -112,8 +115,41 @@ namespace Kapa.Culture.Tests
         {
             var twoLetterCode = Countries.GetTwoLetterCodeFromNumericCode(numericCode);
             var country = Country.FromCode(numericCode);
-            
+
             Assert.True(twoLetterCode == country.TwoLetterCode);
+        }
+
+        [Fact]
+        public void ShouldGetPhoneNumbers()
+        {
+            var country = Country.FromCode("GR");
+            Assert.True(country.DialingCodes.Any());
+            Assert.True(country.DialingCodes.Count() == 1);
+            Assert.True(country.DialingCodes.All(x => x.Equals("30")));
+        }
+
+        [Fact]
+        public void AllTwoLetterCodesShouldBeValid()
+        {
+            var twoLetterCodes = Countries.GetAllTwoLetterCodes();
+            var countries = twoLetterCodes.Select(Country.FromCode);
+            Assert.True(countries.All(x => !string.IsNullOrWhiteSpace(x.Name)));
+        }
+        
+        [Fact]
+        public void AllThreeLetterCodesShouldBeValid()
+        {
+            var threeLetterCodes = Countries.GetAllThreeLetterCodes();
+            var countries = threeLetterCodes.Select(Country.FromCode);
+            Assert.True(countries.All(x => !string.IsNullOrWhiteSpace(x.Name)));
+        }
+        
+        [Fact]
+        public void AllNumericCodesShouldBeValid()
+        {
+            var numericCodes = Countries.GetAllNumericCodes();
+            var countries = numericCodes.Select(Country.FromCode);
+            Assert.True(countries.All(x => !string.IsNullOrWhiteSpace(x.Name)));
         }
     }
 }
