@@ -33,7 +33,7 @@ Console.WriteLine($"Dialing Codes: {string.Join(',', country.DialingCodes)}");
 // Two Letter Code: GR
 // Numeric Code: 300
 // Currency Iso Code : EUR
-// Currency Symbol: ?
+// Currency Symbol: €
 // Languages: el-GR
 // Dialing Codes: 30
 
