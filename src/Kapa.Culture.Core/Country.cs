@@ -18,29 +18,24 @@ namespace Kapa.Culture
 
         private Country()
         {
-
         }
 
         private Country(string twoLetterCode)
         {
-            var regionInfo = new RegionInfo(twoLetterCode);
-
             TwoLetterCode = twoLetterCode;
             ThreeLetterCode = Countries.GetThreeLetterCodeFromTwoLetterCode(twoLetterCode);
             NumericCode = Countries.GetNumericCodeFromTwoLetterCode(twoLetterCode);
-            Name = regionInfo.EnglishName;
-            CurrencyIsoCode = regionInfo.ISOCurrencySymbol;
-            CurrencySymbol = regionInfo.CurrencySymbol;
+            Name = Countries.GetNameFromTwoLetterCode(twoLetterCode);
+            CurrencyIsoCode = Countries.GetCurrencyCodeFromTwoLetterCode(twoLetterCode);
             Languages = CultureInfo.GetCultures(CultureTypes.AllCultures)
                 .Where(x => x.Name.EndsWith($"-{twoLetterCode}"))
                 .Select(x => x.Name);
-            DialingCodes = Phones.GetDialingCodesFromTwoLetterCode(twoLetterCode);
         }
 
         public static Country FromCode(string code)
         {
             var country = new Country();
-            
+
             if (string.IsNullOrEmpty(code))
             {
                 return country;
