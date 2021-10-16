@@ -1,7 +1,7 @@
 using System.Linq;
 using Xunit;
 
-namespace Kapa.Culture.Tests
+namespace Kapa.Country.Tests
 {
     public class CountryTests
     {
@@ -48,7 +48,6 @@ namespace Kapa.Culture.Tests
             Assert.True(country.ThreeLetterCode == "GRC");
             Assert.True(country.TwoLetterCode == "GR");
             Assert.True(country.Name != default);
-            Assert.NotNull(country.CurrencySymbol);
             Assert.True(country.CurrencyIsoCode == "EUR");
             Assert.NotNull(country.Languages);
         }
@@ -117,15 +116,6 @@ namespace Kapa.Culture.Tests
             var country = Country.FromCode(numericCode);
 
             Assert.True(twoLetterCode == country.TwoLetterCode);
-        }
-
-        [Fact]
-        public void ShouldGetPhoneNumbers()
-        {
-            var country = Country.FromCode("GR");
-            Assert.True(country.DialingCodes.Any());
-            Assert.True(country.DialingCodes.Count() == 1);
-            Assert.True(country.DialingCodes.All(x => x.Equals("30")));
         }
 
         [Fact]

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Kapa.Culture
+namespace Kapa.Country
 {
     public static class Phones
     {

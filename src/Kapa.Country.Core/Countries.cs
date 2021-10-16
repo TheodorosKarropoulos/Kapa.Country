@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Kapa.Culture
+namespace Kapa.Country
 {
     public static class Countries
     {
