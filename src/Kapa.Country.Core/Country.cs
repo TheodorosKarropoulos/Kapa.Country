@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using Kapa.Culture.Extensions;
 
-namespace Kapa.Country
+namespace Kapa.Culture
 {
     public class Country
     {
